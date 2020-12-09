@@ -78,7 +78,7 @@ Click on the <a href="https://##DNS.ip##:30100" target="_blank">https://##DNS.ip
 
 You will see the Prometheus metrics page as below :
 
-![prometheus-page](../_images/prom.png)
+![prometheus-page](_images/prom.png)
 
 This is the minimal steps of getting the Prometheus Operator Instances. You need to modify the instance accordingly for your application.
 
