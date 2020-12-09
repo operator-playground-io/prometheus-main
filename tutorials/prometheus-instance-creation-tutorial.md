@@ -74,27 +74,11 @@ prometheus-prometheus-0                3/3     Running   1          68s
 prometheus-prometheus-1                3/3     Running   1          68s
 ```
 
-Now get the IP Address of the VM by executing the below command:
-
-```execute
-export ip_addr=$(ifconfig eth1 | grep inet | awk '{print $2}' | cut -f2 -d:)
-```
-
-See what is your VM IP Address:
-
-```execute
-echo $ip_addr
-```
-
-Now copy the output of the above command, paste in place of `$ip_addr` in the next command and you can access the service from your browser using the below link:
-
-```
-http://$ip_addr:30100
-```
+Click on the <a href="https://##DNS.ip##:30100" target="_blank">https://##DNS.ip##:30100</a> to access Prometheus Service from your browser.
 
 You will see the Prometheus metrics page as below :
 
-![prometheus-page](_images/prom-page.png)
+![prometheus-page](../_images/prom.png)
 
 This is the minimal steps of getting the Prometheus Operator Instances. You need to modify the instance accordingly for your application.
 
