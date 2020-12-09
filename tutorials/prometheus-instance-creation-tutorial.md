@@ -74,7 +74,7 @@ prometheus-prometheus-0                3/3     Running   1          68s
 prometheus-prometheus-1                3/3     Running   1          68s
 ```
 
-Click on the <a href="https://##DNS.ip##:30100" target="_blank">https://##DNS.ip##:30100</a> to access Prometheus Service from your browser.
+Click on the <a href="http://##DNS.ip##:30100" target="_blank">http://##DNS.ip##:30100</a> to access Prometheus Service from your browser.
 
 You will see the Prometheus metrics page as below :
 
